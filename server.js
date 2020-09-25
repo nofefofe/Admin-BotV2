@@ -12,7 +12,7 @@ app.get("/", (request, response) => {
 });
 app.listen(process.env.PORT);
 setInterval(() => {
-  http.get(`http://333.glitch.me/`); ///تعديل مهم حط بدل 333م البروجكت
+  http.get(`http://uneven-shy-balance.glitch.me/`); ///تعديل مهم حط بدل 333م البروجكت
 }, 280000);
 
 // كل البكجات الي ممكن تحتجها في اي بوت
@@ -65,9 +65,9 @@ console.log("Bot Online 24/7");
 ///
 //الاكواد
 
-const dev = ["حط الايدي"]; ///تعديل مهم حط ايدي حسابك
+const dev = ["552161613726089226"];
 const admin = "=";
-var owner = "حط الايدي"; // Owner Bot Mention /// تعديل مهم حط ايدي حسابكتعديل مهم ايدي حسابك
+var owner = "552161613726089226"; // Owner Bot Mention /// تعديل مهم حط ايدي حسابكتعديل مهم ايدي حسابك
 var number = "1"; // Unmber Bot
 var ex = "2019/10/08";
 client.on("message", message => {
@@ -96,7 +96,7 @@ client.on("ready", () => {
   );
   console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setActivity("اسم السيرفر"); ///تعديل مهم غير كلمة هيلب وبرميوم اللي بدك اياه مثل اسم سيرفرك
+  client.user.setActivity("=Help | Add me : @8awv"); ///تعديل مهم غير كلمة هيلب وبرميوم اللي بدك اياه مثل اسم سيرفرك
   client.user.setStatus("idle");
 });
 
@@ -963,7 +963,7 @@ client.on("message", message => {
     const embed = new Discord.RichEmbed()
 
       .setImage("")
-      .setTitle(`✽ **Premium Bot**`)
+      .setTitle(`✽ **Shadow Bot**`)
       .setColor("black")
       .setImage(`${x5bzm.avatarURL}`);
     message.channel.sendEmbed(embed);
@@ -977,7 +977,7 @@ client.on("message", message => {
       .setColor("#9B59B6")
       .addField(
         " ** :gear: Server Support :gear: **",
-        "  **https://discord.gg/JJTmEjc*"
+        "  **https://discord.gg/geA9UN5*"
       );
 
     message.channel.sendEmbed(embed);
@@ -997,7 +997,7 @@ client.on("guildMemberAdd", member => {
     .addField(" **__Welcome To Server__**", `**${member.guild.name}**`)
     .addField("**انت العضو رقم** ", `${member.guild.memberCount} `)
     .setColor("RANDOM");
-  var channel = member.guild.channels.find("name", "s"); //تعديل مهم اسم روم الولكم
+  var channel = member.guild.channels.find("welcome", "welcome"); //تعديل مهم اسم روم الولكم
   if (!channel) return;
   channel.send({ embed: embed });
 });
@@ -1058,7 +1058,7 @@ client.on("message", message => {
           var embed = new Discord.RichEmbed()
             .setTitle(`You are Moved in ${message.guild.name} `)
             .setColor("RANDOM")
-            .setTitle(`✽ **Premium**`)
+            .setTitle(`✽ **Shadow**`)
 
             .setDescription(
               `**<@${message.author.id}> Moved You To His Channel!\nServer --> ${message.guild.name}**`
@@ -1102,7 +1102,7 @@ client.on("message", message => {
       .forEach(m => {
         m.setVoiceChannel(author);
       })
-      .setTitle(`✽ **Premium**`)
+      .setTitle(`✽ **Shadow**`)
       .setImage("");
 
     message.channel.send(
@@ -1245,7 +1245,7 @@ client.on("message", message => {
       `**:white_check_mark:  | تم ارسال الاوامر العامة على الخاص **`
     );
 
-    message.author.sendMessage(` ✽ **__ Premium Bot v1__**
+    message.author.sendMessage(` ✽ **__ Shadow Bot v1__**
 **__الاوامر العامه__** 
 **  =bot • لعرض معلومات عن البوت** 
 **  =user • لعرض معلومات عنك** 
@@ -1318,7 +1318,7 @@ client.on("message", message => {
       `**:white_check_mark:  | تم ارسال الاوامر الإدارية على الخاص **`
     );
 
-    message.author.sendMessage(` **✽ Premium Bot v1**
+    message.author.sendMessage(` **✽ Shadow Bot v1**
    **__الاوامر الإداريــه__** ✽ 
 **  =clear • لمسح الشات** 
 **  =ban • لتبنيد شخص** 
@@ -1340,10 +1340,10 @@ client.on("message", message => {
       `** :white_check_mark: | تم ارسال اوامر الموسيقى في الخاص**`
     );
 
-    message.author.sendMessage(`  **Premium Bot v1**
+    message.author.sendMessage(`  **Shadow Bot v1**
   **__أوامر الــمــوســيــقــى__**   
-**  حاليا البوت لا يدعم الموسيقى ، لكن يمكنك عمل بوت هنا وضع نفس التوكن وسوف يعمل **
-** -  https://youtu.be/_ddysZxk9Pw | شرح بوت ميوزك يعمل 24 ساعة **
+**  حاليا البوت لا يدعم الموسيقى **
+
     
 `);
   }
@@ -1359,7 +1359,7 @@ client.on("message", message => {
       `**:white_check_mark:  | تم ارسال اوامر الحماية على الخاص **`
     );
 
-    message.author.sendMessage(`**✽  Premium Bot v1**
+    message.author.sendMessage(`**✽  Shadow Bot v1**
 **__اوامر الــحــمــايــة__**  
 **  =settings limitsban •  تحدد العدد الي تبيه لو حد بند ، البوت يبنده **
 **  =settings limitskick • تحدد العدد الي تبيه لو حد طرد 3 او 4 ، البوت يبنده **
@@ -1380,7 +1380,7 @@ client.on("message", message => {
       `**:white_check_mark: | تم ارسال الاوامر المميزة على الخاص **`
     );
 
-    message.author.sendMessage(` **Premium Bot v1**
+    message.author.sendMessage(` **Shadow Bot v1**
 
 ** =creatcolores • صنع ألوان **
 ** =colors • غير لونك ** 
